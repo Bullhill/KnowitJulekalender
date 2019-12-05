@@ -13,9 +13,7 @@ for($i=0;$i < count($stepA); $i = $i+2){
 for($i = 0; $i < count($stepB);$i++){
 	$stepC[$i] = $stepB[((count($stepB)/2)+$i)%count($stepB)];}
 
-foreach($stepC as $char){
-	echo $char;}
-echo "\n";
+echo implode($stepC) . "\n";
 
 
 ?>
