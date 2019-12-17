@@ -27,7 +27,6 @@ foreach($t as $num)
 		for($l = 0; $l<strlen($num);$l++)
 		{
 			$canum[] = $anum[($i+$l)%strlen($num)];
-			
 		}
 		$cnum = implode($canum);
 		//echo $cnum . "\n";
