@@ -16,6 +16,7 @@ Med følgende leveringsliste:
 sukker: 25, mel: 15, egg: 17
 sukker: 17, melk: 14
 sukker: 17, melk: 18
-sukker: 25, melk: 24, egg: 10```
+sukker: 25, melk: 24, egg: 10
+```
 
 kan vi finne at det er blitt bakt 11 kaker.
