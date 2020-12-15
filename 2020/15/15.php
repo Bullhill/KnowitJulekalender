@@ -18,7 +18,7 @@ foreach($testord as $test)
 		if(isset($ordsjekk[$forste . $ord]) && isset($ordsjekk[$ord . $andre]))
 		{
 			//echo $forste . " - " . $ordsjekk[$forste . $ord] . " - " . $ordsjekk[$ord . $andre] . " - " . $andre . " - " . substr($ordsjekk[$forste . $ord], strlen($forste)) .  "\n";
-			$lim[substr($ordsjekk[$forste . $ord], strlen($forste))] = substr($ordsjekk[$forste . $ord], strlen($forste));
+			$lim[$ord] = $ord;
 		}
 	}
 }
